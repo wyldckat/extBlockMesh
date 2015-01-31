@@ -2,8 +2,9 @@
 cd ${0%/*} || exit 1    # run from this directory
 set -x
 
-wclean MeshSmoother
+wclean libso MeshSmoother
 wclean
+wclean hexMeshSmoother
 
 
 # ---------------------------------------------------------------- end-of-file

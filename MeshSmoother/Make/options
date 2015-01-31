@@ -7,12 +7,9 @@ EXE_INC = \
     -I$(LIB_SRC)/fileFormats/lnInclude \
     -I$(LIB_SRC)/finiteVolume/lnInclude \
     -I$(LIB_SRC)/triSurface/lnInclude \
-    -I$(EXTBLOCKMESH_CODE)/MeshSmoother \
-    -I$(EXTBLOCKMESH_CODE)/MeshSmoother/Point \
-    -I$(EXTBLOCKMESH_CODE)/MeshSmoother/Point/Features \
-    -I$(EXTBLOCKMESH_CODE)/MeshSmoother/BoundaryLayer
+    -I$(realpath ../MeshSmoother/lnInclude)
 
-EXE_LIBS = \
+LIB_LIBS = \
     -lblockMesh \
     -lmeshTools \
     -ledgeMesh \

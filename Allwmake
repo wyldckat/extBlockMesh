@@ -2,9 +2,7 @@
 cd ${0%/*} || exit 1    # run from this directory
 set -x
 
-export EXTBLOCKMESH_CODE=$PWD
-
-wmake MeshSmoother
+wmake libso MeshSmoother
 wmake
 wmake hexMeshSmoother
 
