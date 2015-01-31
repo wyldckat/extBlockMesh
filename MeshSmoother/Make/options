@@ -15,6 +15,3 @@ LIB_LIBS = \
     -ledgeMesh \
     -lfiniteVolume \
     -ldynamicMesh
-    
-    
-    
